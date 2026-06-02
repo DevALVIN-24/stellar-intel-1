@@ -13,10 +13,7 @@ interface ToastProps {
 
 export const Toast = ({ toasts, onRemove }: ToastProps) => {
   return (
-    <div
-      aria-live="polite"
-      style={containerStyle}
-    >
+    <div aria-live="polite" style={containerStyle}>
       {toasts.map((toast) => (
         <div
           key={toast.id}
