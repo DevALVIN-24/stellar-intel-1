@@ -14,7 +14,7 @@ export const USDC_ASSET: StellarAsset = {
 
 export const XLM_ASSET: StellarAsset = {
   code: 'XLM',
-  issuer: undefined,
+  issuer: '',
   name: 'Stellar Lumens',
 };
 
